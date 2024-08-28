@@ -4,7 +4,7 @@ public with sharing class FeatureFlags implements IFeatureFlags {
     private Set<String> customPermissionNames; 
     private static Map<String,Boolean> mockValues = new Map<String,Boolean>();
 
-    //
+    // dd
     public FeatureFlags(IFeatureFlagProvider provider){
         features = provider.getFeatureFlags();
         customPermissionNames = provider.getCustomPermissionNames();
